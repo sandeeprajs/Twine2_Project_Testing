@@ -9,12 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Media.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Media" startnode="2" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="7C1138E5-7822-4549-A0E2-7834B667DD1A" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Image" tags="" position="100,300" size="100,100">&lt;img src=&quot;https://store-images.s-microsoft.com/image/apps.808.14492077886571533.be42f4bd-887b-4430-8ed0-622341b4d2b0.c8274c53-105e-478b-9f4b-41b8088210a3?q=90&amp;w=512&amp;h=768&amp;mode=crop&amp;format=jpg&amp;background=%23FFFFFF&quot; alt=&quot;Image&quot;&gt;
-
-&lt;img src=&quot;img/HllClimb.png&quot;&gt;
-
-(link-goto: &quot;Go to Audio&quot;, &quot;Audio Switch&quot;)
-(link-goto: &quot;Go to Room 1&quot;, &quot;Room 1&quot;)</tw-passagedata><tw-passagedata pid="2" name="Audio Switch" tags="" position="100,100" size="100,100">&lt;!-- The audio player without autoplay
+<tw-storydata name="Media" startnode="1" creator="Twine" creator-version="2.12.0" format="Harlowe" format-version="3.3.9" ifid="7C1138E5-7822-4549-A0E2-7834B667DD1A" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Audio Switch" tags="" position="100,100" size="100,100">&lt;!-- The audio player without autoplay
 &lt;audio id=&quot;gameAudio&quot; src=&quot;audio/football-soccer-game.mp3&quot; loop controls style=&quot;display:none;&quot;&gt;&lt;/audio&gt; --&gt;
 
 &lt;!-- Trigger Audio --&gt;
@@ -57,19 +52,12 @@
     (live: 0.2s)[
         (goto: &quot;Room 1&quot;)
     ]
-]</tw-passagedata><tw-passagedata pid="3" name="Video" tags="" position="100,500" size="100,100">&#39;&#39;Good of War&#39;&#39;
-&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
-  &lt;source src=&quot;video/Pacman Gameplay.mp4&quot; type=&quot;video/mp4&quot;&gt;
-  Your browser does not support the video tag.
-&lt;/video&gt;
+]</tw-passagedata><tw-passagedata pid="2" name="Image" tags="" position="100,300" size="100,100">&lt;img src=&quot;https://store-images.s-microsoft.com/image/apps.808.14492077886571533.be42f4bd-887b-4430-8ed0-622341b4d2b0.c8274c53-105e-478b-9f4b-41b8088210a3?q=90&amp;w=512&amp;h=768&amp;mode=crop&amp;format=jpg&amp;background=%23FFFFFF&quot; alt=&quot;Image&quot;&gt;
 
-&#39;&#39;Game of Thrones: War for Westeros&#39;&#39;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9TwqSWCXk4Y?si=ENl7u9eI_y5OPpTo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;img src=&quot;img/HllClimb.png&quot;&gt;
 
-(link-goto: &quot;Go to Img&quot;, &quot;Image&quot;)
-(link-goto: &quot;Go to Room 1&quot;, &quot;Room 1&quot;)
-
-&lt;!-- Video https://sandeeprajs.github.io/Twine2_Project_Testing/ --&gt;</tw-passagedata><tw-passagedata pid="4" name="Room 1" tags="" position="300,100" size="100,100">&lt;audio src=&quot;audio/game-music.mp3&quot; autoplay loop volume=&quot;0.2&quot;&gt;&lt;/audio&gt;
+(link-goto: &quot;Go to Audio&quot;, &quot;Audio Switch&quot;)
+(link-goto: &quot;Go to Room 1&quot;, &quot;Room 1&quot;)</tw-passagedata><tw-passagedata pid="3" name="Room 1" tags="" position="300,100" size="100,100">&lt;audio src=&quot;audio/game-music.mp3&quot; autoplay loop volume=&quot;0.2&quot;&gt;&lt;/audio&gt;
 
 &#39;&#39;Button Click Sound&#39;&#39;
 (link: &quot;Go to Room 2&quot;)[
@@ -98,7 +86,7 @@
     (live: 0.2s)[
         (goto: &quot;Video&quot;)
     ]
-]</tw-passagedata><tw-passagedata pid="5" name="Room 2" tags="" position="300,300" size="100,100">&lt;audio src=&quot;audio/retro-game.mp3&quot; autoplay loop volume=&quot;0.2&quot;&gt;&lt;/audio&gt;
+]</tw-passagedata><tw-passagedata pid="4" name="Room 2" tags="" position="300,300" size="100,100">&lt;audio src=&quot;audio/retro-game.mp3&quot; autoplay loop volume=&quot;0.2&quot;&gt;&lt;/audio&gt;
 
 &#39;&#39;Button Click Sound&#39;&#39;
 (link: &quot;Go to Room 1&quot;)[
@@ -106,7 +94,33 @@
     (live: 0.2s)[
         (goto: &quot;Room 1&quot;)
     ]
-]</tw-passagedata></tw-storydata>
+]</tw-passagedata><tw-passagedata pid="5" name="Video" tags="" position="100,500" size="100,100">&#39;&#39;Good of War&#39;&#39;
+&lt;video width=&quot;320&quot; height=&quot;240&quot; controls&gt;
+  &lt;source src=&quot;video/Pacman Gameplay.mp4&quot; type=&quot;video/mp4&quot;&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;
+
+&#39;&#39;Game of Thrones: War for Westeros&#39;&#39;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9TwqSWCXk4Y?si=ENl7u9eI_y5OPpTo&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+(link-goto: &quot;Go to Img&quot;, &quot;Image&quot;)
+(link-goto: &quot;Go to Room 1&quot;, &quot;Room 1&quot;)
+
+&lt;!-- Video https://sandeeprajs.github.io/Twine2_Project_Testing/ --&gt;</tw-passagedata><tw-passagedata pid="6" name="Mouse Interactions" tags="" position="300,500" size="100,100">### Mouse Interaction Demo
+####Find the Hidden Object
+#####Move your mouse over the objects below and find the hidden key!
+ 
+(link: &quot;1. Chair&quot;, (action: &quot;mouseover&quot;))[Chair: Nothing here!]
+
+(link: &quot;2. Box&quot;, (action: &quot;mouseover&quot;))[(link: &quot;Mouse Out&quot;, (action:&quot;mouseout&quot;))[Hmm... just an empty box.]]
+
+(link: &quot;3. Crate&quot;, (action: &quot;mouseover&quot;))[(set: $foundKey to true)You found the hidden key!
+(link-goto: &quot;Enter Audio Room&quot;, &quot;Audio Switch&quot;)
+]
+
+
+
+</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
